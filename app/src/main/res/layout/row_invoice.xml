@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/invoice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:text="Invoice Number: "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/invoiceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_toRightOf="@+id/invoice1"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/invoice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/invoiceNumber"
+        android:layout_marginTop="10sp"
+        android:text="Total: "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="5sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/invoiceTotal"
+        android:text="..."
+        android:textColor="@color/black"
+        android:layout_below="@+id/invoiceNumber"
+        android:layout_toRightOf="@+id/invoice2"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/invoice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoice2"
+        android:layout_marginTop="10sp"
+        android:text="Day Order: "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="5sp"/>
+
+    <TextView
+        android:id="@+id/invoiceDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoice2"
+        android:layout_marginTop="10sp"
+        android:layout_toRightOf="@id/invoice3"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

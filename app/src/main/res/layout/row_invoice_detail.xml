@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food name: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"
+        />
+
+    <TextView
+        android:id="@+id/txtDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtName1"
+        android:text="... "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName1"
+        android:text="Price: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"/>
+
+    <TextView
+        android:id="@+id/txtPriceInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName1"
+        android:layout_toRightOf="@+id/txtPrice1"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtQuantity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrice1"
+        android:text="Quantity: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"/>
+
+    <TextView
+        android:id="@+id/txtQuatityInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrice1"
+        android:layout_toRightOf="@+id/txtQuantity1"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtTotal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQuantity1"
+        android:text="Total: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp"/>
+
+    <TextView
+        android:id="@+id/txtTotalInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQuantity1"
+        android:layout_toRightOf="@+id/txtTotal1"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</RelativeLayout>
